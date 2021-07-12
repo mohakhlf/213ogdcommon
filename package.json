@@ -1,5 +1,5 @@
 {
-    "name": "common",
+    "name": "@213OGD/common",
     "version": "1.0.4",
     "description": "",
     "main": "./lib/index.js",
@@ -10,7 +10,7 @@
         "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/213OGD"
+        "registry": "https://npm.pkg.github.com"
     },
     "keywords": [],
     "author": "",
