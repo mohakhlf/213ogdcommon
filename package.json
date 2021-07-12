@@ -1,6 +1,6 @@
 {
     "name": "common",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "description": "",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
@@ -10,7 +10,7 @@
         "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
+        "registry": "https://npm.pkg.github.com/213OGD"
     },
     "keywords": [],
     "author": "",
