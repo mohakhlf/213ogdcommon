@@ -1,6 +1,6 @@
 {
-    "name": "@213OGD/common",
-    "version": "1.0.5",
+    "name": "@mohakhlf/213OGDcommon",
+    "version": "1.0.4",
     "description": "",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
