@@ -2,11 +2,15 @@
     "name": "common",
     "version": "1.0.1",
     "description": "",
-    "main": "index.js",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
     "scripts": {
         "prebuild": "del lib/*",
         "build": "tsc",
         "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
     },
     "keywords": [],
     "author": "",
