@@ -9,7 +9,7 @@
     ],
     "scripts": {
         "prebuild": "del lib/*",
-        "build": "tsc",
+        "build": "tsc --AllowJs",
         "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
     },
     "publishConfig": {
